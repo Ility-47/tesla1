@@ -1,0 +1,343 @@
+* {padding: 0;margin: 0;border: 0;}
+  *, *:before, :after {-webkit-box-sizing: border-box;box-sizing: border-box;}  
+  :focus, :active {outline: none;}  
+  a:focus, a:active {outline: none;} 
+  nav, footer, header, aside {display: block;} 
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 100%;} 
+  input, button, textarea {font-family: inherit;}  
+  input::-ms-clear {display: none;}  
+  button {cursor: pointer;}
+  button::-moz-focus-inner {padding: 0;border: 0;}
+  a, a:visited {text-decoration: none;}
+  a:hover {text-decoration: none;color: #9AA8b1;transition: .7s;}
+  ul li {list-style: none;}
+  img {vertical-align: top;}
+  h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: inherit;}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url(../fonts/Gotham-Medium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url(../fonts/Gotham-Bold.ttf);
+    font-weight: bold;
+}
+.fon{
+    width: 100%;
+    background: linear-gradient( transparent, white),
+    url('../image/fon.webp');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 544px;
+    object-fit: cover;
+}
+.fon.second{
+    background: linear-gradient( transparent, white),
+    url('../image/fon2.webp');
+    height: 365px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1065px;
+    margin: 0 auto;
+}
+.main{
+    width: 69%;
+    margin: 0 auto;
+}
+.main__logo{
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: center;
+}
+.main__title{
+    width: 100%;
+    margin: 0 auto;
+    padding: 151px 0 132px 0;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #393C41;    
+    font-family: 'Gotham';
+}
+.info{
+    width: 100%;
+    margin: 32px 0 0 0;
+}
+.info__suptitle{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: rgba(72, 79, 87, 0.7);
+    font-family: 'Gotham';
+}
+.info__title{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #393C41;
+    padding-bottom: 14px;
+    font-family: 'Gotham';
+}
+.info__text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #484F57;
+    font-family: 'Gotham';
+}
+.info__btn{
+    text-align: center;
+}
+.info__btn button{
+    background: #323439;
+    border-radius: 100px;
+    width: 288px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;    
+    text-transform: uppercase;
+    margin: 32px auto;
+    font-family: 'Gotham';
+}
+/*управление страницами*/
+.page__1{
+    display:block;
+    transition: 2s;
+}
+
+.page__2{
+    display: none;
+    transition: 2s;
+}
+
+.page__3{
+    display:none;
+    transition: 2s;
+    grid-template-areas: 'form slid slid slid slid';
+}
+
+.btns{
+    width: 27%;
+    margin: 0 auto;
+    padding: 32px 0 222px 0;
+    
+}
+.btns button{
+    width: 288px;
+    height: 45px;
+    background: #F4F4F4;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-family: 'Gotham';
+}
+.sex__btn{
+    padding: 7px 0 7px 0;
+}
+.sex__btn.active button{
+    background: #3E6AE1;
+    color: #FFFFFF;
+}
+.next__btn button{
+    margin-top: 65px ;
+    background: #323439;
+    color: #FFFFFF;
+    transition: 2s;
+}
+.half-1{
+    width: 35%;
+    grid-area: form;
+}
+.form{
+    width: 312px;
+    margin: 142px;
+}
+.form input{
+    width: 312px;
+    height: 45px;
+    background: #F4F4F4;
+    border-radius: 100px;
+    padding: 5px 10px 5px 22px;
+}
+.form__title{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5E5F63;
+    padding:18px 0 4px 18px;
+    font-family: 'Gotham';
+}
+.warning{
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5F63;
+    padding: 24px 0 16px 0;
+    font-family: 'Gotham';
+}
+.form__btn button{
+    width: 312px;
+    height: 45px;
+    background: #3D69E1;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    font-family: 'Gotham';
+}
+.form__police{
+    font-family: 'Gotham';
+}
+.colortext{
+    color: #3D69E1;
+}
+.slider{
+    width: 100%;
+    background-image: url(../image/form3.webp);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    animation: fon  20s alternate infinite;
+    grid-area: slid;
+}
+@keyframes fon {
+    0%{background-image: url(../image/form3.webp);}
+    33%{background-image: url(../image/form2.webp);}
+    66%{background-image: url(../image/form1.webp);}
+    100%{background-image: url(../image/form4.webp);}
+}
+.slider__title{
+    width: 67%;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0 auto;
+    color: #393C41;
+    padding: 62px 0 18px 0;
+    font-family: 'Gotham';
+}
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: #393C41;
+    font-family: 'Gotham';
+}
+@media(max-width: 540px){
+    .container{
+        width: 288px;
+    }
+    .fon{
+        background: linear-gradient( transparent, white),
+        url('../image/fon-media.webp');
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: 100%;
+    }
+    .main{
+        width: 95%;
+    }
+    .main__logo img{
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .main__title{
+        font-size: 23px;
+        padding: 44px 0 72px 0;
+    }
+    .info{
+        margin: 10px;
+    }
+    .info__suptitle{
+        font-size: 10px;
+    }
+    .info__title{
+        font-size: 16px;
+    }
+    .info__text{
+        width: 288px;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .info__btn button{
+        font-size: 10px;
+        height: 32px;
+    }
+    .fon.second{
+        background: linear-gradient( transparent, white),
+        url('../image/fon2-media.webp');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .btns{
+        width: 95%;
+    }
+    .btns button{
+        height: 32px;
+        font-size: 10px;
+    }
+    .page__3{
+        grid-template-areas: 'slid'
+        'form';
+    }
+    .form{
+        width: 80%;
+        margin: 0 auto;
+       
+    }
+    .slider{
+        width: 100%;
+        background-image:linear-gradient( transparent, white), url(../image/fon3-media.webp);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        animation: none;
+        grid-area: slid;
+    }
+    .slider__title{
+        font-size: 20px;
+        width: 95%;
+        line-height: 24px;
+        padding: 32px 0 8px 0;
+    }
+    .half-1{
+        width: 100%;
+        grid-area: form;
+    }
+    .subtitle{
+        font-size: 10px;
+        width: 100%;
+    }
+    .form input{
+        width: 281px;
+        height: 32px;
+    }
+    .form__btn button{
+        width: 281px;
+        height: 32px;
+    }    
+
+}
