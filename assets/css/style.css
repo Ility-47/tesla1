@@ -20,18 +20,18 @@
 
 @font-face {
     font-family: 'Gotham';
-    src: url(../fonts/Gotham-Medium.ttf);
+    src: url(fonts/Gotham-Medium.ttf);
     font-weight: normal;
 }
 @font-face {
     font-family: 'Gotham';
-    src: url(../fonts/Gotham-Bold.ttf);
+    src: url(fonts/Gotham-Bold.ttf);
     font-weight: bold;
 }
 .fon{
     width: 100%;
     background: linear-gradient( transparent, white),
-    url('../image/fon.webp');
+    url('image/fon.webp');
     background-size: 100% ;
     background-repeat: no-repeat;
     height: 544px;
@@ -39,7 +39,7 @@
 }
 .fon.second{
     background: linear-gradient( transparent, white),
-    url('../image/fon2.webp');
+    url('image/fon2.webp');
     height: 365px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -222,10 +222,10 @@
     grid-area: slid;
 }
 @keyframes fon {
-    0%{background-image: url(../image/form3.webp);}
-    33%{background-image: url(../image/form2.webp);}
-    66%{background-image: url(../image/form1.webp);}
-    100%{background-image: url(../image/form4.webp);}
+    0%{background-image: url(image/form3.webp);}
+    33%{background-image: url(image/form2.webp);}
+    66%{background-image: url(image/form1.webp);}
+    100%{background-image: url(image/form4.webp);}
 }
 .slider__title{
     width: 67%;
@@ -288,7 +288,7 @@
     }
     .fon.second{
         background: linear-gradient( transparent, white),
-        url('../image/fon2-media.webp');
+        url('image/fon2-media.webp');
         background-repeat: no-repeat;
         background-size: 100%;
     }
@@ -310,7 +310,7 @@
     }
     .slider{
         width: 100%;
-        background-image:linear-gradient( transparent, white), url(../image/fon3-media.webp);
+        background-image:linear-gradient( transparent, white), url(image/fon3-media.webp);
         background-size: 100%;
         background-repeat: no-repeat;
         height: 100%;
